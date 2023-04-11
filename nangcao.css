@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:ital,wght@1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+body {
+  font-family: "lato" sans-serif;
+  line-height: 1.5;
+  color: #1d3557;
+}
+font-face {
+  font-family: "Playfair Display", serif;
+}
+section > .container {
+  width: 1370px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+.now {
+  background-color: #4b6ee0;
+  padding: 4px 10px 3px 10px;
+  color: #dff1fa;
+  text-align: center;
+  border-radius: 12px;
+}
+/*.container {
+  display: grid;
+  grid-template-columns: repeat(, 1fr);
+  column-gap: 4px;
+  margin-left: 10px;
+}*/
+#goals {
+  border: 1px solid #4b6ee0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.cv {
+  border-bottom: 1px solid #d6c08d;
+  padding-bottom: 1px;
+}
+.capsach {
+  margin-left: 30%;
+  margin-top: 20px;
+  stroke: rgb(12, 8, 26);
+  width: 40px;
+  height: 40px;
+}
+.job-box-grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  column-gap: 20px;
+  row-gap: 40px;
+  border: 1px solid #edeff5;
+  align-items: center;
+  padding: 24px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+.jod-content {
+  grid-column: 1/1;
+  margin: 20px;
+}
+.jod-icon-1 {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #9196a7;
+}
+span {
+  font-size: 30px;
+  align-items: center;
+  border: 1px solid #4b6ee0;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  color: #4b6ee0;
+}
+.team {
+  text-align: right;
+}

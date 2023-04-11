@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  .duongke {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cv {
+    font-size: 14px;
+  }
+  .duongvien {
+    font-size: 10px;
+
+    padding: 10px 4px !important;
+  }
+  .duongvien span {
+    margin-right: 5px;
+  }
+  td {
+    font-size: 14px;
+  }
+  tr td :first-child {
+    width: 30px;
+  }
+}
